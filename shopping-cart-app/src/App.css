@@ -1,0 +1,87 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 5px;
+}
+
+.progress-container {
+  text-align: center;
+}
+
+progress {
+  width: 100%;
+}
+
+.gift-message {
+  color: green;
+  font-weight: bold;
+}
+
+.cart-items {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.cart-controls button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+/* Red color for "-" button */
+.cart-controls button:first-child {
+  background-color: red;
+}
+
+/* Green color for "+" button */
+.cart-controls button:last-child {
+  background-color: green;
+}
+
+/* Gift tag with icon */
+.gift-tag {
+  color: green;
+  font-weight: bold;
+}
+
+.gift-tag::before {
+  content: "🎁 ";
+}
